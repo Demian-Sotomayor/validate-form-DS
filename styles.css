@@ -1,0 +1,90 @@
+
+body {
+    width: 90%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+    margin: 0 auto;
+}
+
+form {
+    border: 1px solid lightgrey;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.container__form {
+    margin: 40px;
+    padding: 20px;
+}
+
+.container__title--form {
+    background: whitesmoke;
+    margin: 0px;
+    padding: 10px;
+    border-bottom: 1px solid lightgray;
+}
+
+.separation {
+    border-top: 1px solid lightgray;
+}
+
+.card__info {
+    margin-bottom: 10px;
+}
+
+.alert {
+    width: 100%;
+}
+
+.alert__container {
+    display: flex;
+    justify-content: center;
+}
+
+.container__buttons {
+    background: whitesmoke;
+    display: flex;
+    justify-content: flex-end;
+    border-top: 1px solid lightgray;
+
+}
+
+.container__buttons button {
+    margin: 10px 5px;
+}
+
+.last__inputs {
+    display: flex;
+    justify-content: center;
+}
+
+.visa, .msg-form {
+    margin-top: 29px;
+}
+
+.methods {
+    background: grey;
+    width: 35%;
+    padding: 10px;
+    border-radius: 5%;
+    display: inline-block;
+    margin: 10px 0;
+}
+
+i {
+    color: white;
+    padding: 0 10px;
+    margin: 0 2px;
+}
+
+
+input {
+    background: red;
+}
+
+textarea {
+    resize: none;
+}
